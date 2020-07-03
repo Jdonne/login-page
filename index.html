@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Intuit Accounts - Sign Up</title>
-        <link href='style.css' type='text/css' rel='stylesheet'>
-    </head>
-    <body>
-        <nav>
 
-        </nav>
-        <fieldset>
-            <h1>Create an Intuit account</h1>
-            <span>One account for everything Intuit, including Mint</span>
-            <a id='learn' href='https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account' target=''>Learn more</a>
-            <form>
-                <label for='email'>Email address</label>
-                <input type='email' id='email' name=email required>
-                <label for='phone'>Phone (recommended)</label>
-                <input type='tel' id='phone' name=phone required>
-                <label for='password'>Password</label>
-                <input type='password' id='password' name=password required>
-            <button class='create'>Create Account</button>
-            </form>
-        </fieldset>
-    </body>
+<head>
+    <title>Intuit Accounts - Sign Up</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div>
+        <span>Already have an Intuit account?</span>
+        <a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">I forgot my User ID or Password</a>
+        </div>
+        <button id="sign">  <img id="lock" src="download.png" />Sign In</button>
+    </nav>
+    <span id="space"></span>
+    <img class="logo" src="99SKbLn.png" />
+    <fieldset>
+        <h1>Create an Intuit account</h1>
+        <span>One account for everything Intuit, including Mint</span>
+        <a id="learn" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="">Learn
+            more</a>
+        <form>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required />
+            <label for="phone">Phone (recommended)</label>
+            <input type="tel" id="phone" name="phone" required />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+            <button class="create">
+                <img id="lock" src="download.png" />Create Account
+            </button>
+        </form>
+    </fieldset>
+</body>
+
 </html>

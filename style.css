@@ -3,17 +3,53 @@ body {
     font-weight: lighter;
     font-size: 14px;
     color:#404040;
-    
+    background-color: rgb(236, 238, 241);
 }
+/* nav bar */
+nav{
+    float: right;
+    display: flex;
+}
+nav div {
+    margin-right: 10px;
+}
+span {
+    display: block ;
+    font-size: 12px;
+}
+nav a{
+    font-size: 12px;
+}
+
+#space {
+    display:block;
+    height:50px;
+}
+
+button#sign{
+box-sizing: border-box;
+width: 102px;
+height: 34px;
+font-size: 15px;
+}
+/* logo */
+.logo {
+    display: block;
+    margin: auto;
+}
+
+/* form field */
 fieldset {
     display: block;
     box-sizing: border-box;
     width: 380px;
     height:610px;
+    margin:auto;
     text-align: center;
     padding:30px;
     border: 1px solid #c7c7c7;
     box-sizing: border-box;
+    background-color: white;
 }
 #learn {
     display: block;
@@ -38,7 +74,8 @@ input{
     border: 1px solid #c7c7c7;
 }
 
-.create {
+/* create account button */
+button {
     display: block;
     width: 318px;
     height:44px;
@@ -47,4 +84,15 @@ input{
     box-shadow: none;
     border: rgb(0, 119, 197);
     font-size: 15.75px;
+    border-radius: 4px;
 }
+
+#lock {
+    display: inline-block;
+    width:0.8em;
+    height: 1em;
+    margin-right: 6px;
+    margin-top: 2px;
+    
+}
+
